@@ -1,2 +1,2 @@
 # Repo-RelojJS
-Repositorio con JS HTML CSS.
+Repositorio con JS HTML CSS y SCSS.
