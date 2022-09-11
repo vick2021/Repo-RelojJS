@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Reloj Digital de 12 Horas- JS</title>
+	<link rel="shorcut icon" type="image/x-icon" href="ojo2.ico">
+	<link rel="stylesheet" href="estilos.css">
+	<link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	  
+	<div class="audio">
+		<h2>El Condor pasa</h2>
+		<audio width="600" src="media/el condor pasa.m4a" controls loop="autoplay"></audio>
+  </div> 
+
+    <div class="wrap">
+	     <div class="widget">
+		 <div class="fecha">
+		 <p id="diaSemana" class="diaSemana"></p>
+		 <p id="dia" class="dia"></p>
+		 <p>de </p>
+		 <p id="mes" class="mes"></p>
+		 <p>del </p>
+		 <p id="year" class="year"></p>
+		 </div>
+
+	     
+		 
+	<div class="reloj">
+		 <P id="horas" class="horas"></p>
+		 <P>:</p>
+		 <P id="minutos" class="minutos"></p>
+		 <P>:</p>
+		 <div class="caja-segundos">
+		     <P id="ampm" class="ampm"></p>
+			 <P id="segundos" class="segundos"></p>
+		   </div>
+		 </div>
+	    </div>
+       </div>
+      <script src = "reloj.js"></script> 
+</body>
+</html>
